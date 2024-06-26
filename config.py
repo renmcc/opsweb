@@ -35,9 +35,9 @@ MAIL_SERVER = 'smtp.qq.com'
 MAIL_PORT = '587'
 #MAIL_USE_SSL = False
 MAIL_USE_TLS = True
-MAIL_USERNAME = '3133480247@qq.com'
-MAIL_PASSWORD = 'qlamlxavkkmldefa'
-MAIL_DEFAULT_SENDER = '3133480247@qq.com'
+MAIL_USERNAME = ''
+MAIL_PASSWORD = ''
+MAIL_DEFAULT_SENDER = ''
 
 # Celery配置
 CELERY_BROKER_URL = 'redis://:910202@localhost:6379/0'
